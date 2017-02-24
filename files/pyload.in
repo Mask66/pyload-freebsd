@@ -17,6 +17,7 @@
 . "/etc/rc.subr"
 
 PATH="$PATH:%%PREFIX%%/bin"
+export PYTHONIOENCODING=utf8
 
 name=pyload
 rcvar=${name}_enable
